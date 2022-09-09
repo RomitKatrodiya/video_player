@@ -1,16 +1,7 @@
 # video_player
 
-A new Flutter project.
+## About This App
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/RomitKatrodiya/video_player/blob/master/images/video_player.gif" style=" height:700px; " data-target="animated-image.originalImage"><br><img src="https://github.com/RomitKatrodiya/video_player/blob/master/images/Screenshot_20220909_100032.png" style=" height:550px; " data-target="animated-image.originalImage">
+<img src="https://github.com/RomitKatrodiya/video_player/blob/master/images/Screenshot_20220909_100101.png" style=" height:550px; " data-target="animated-image.originalImage">
+<img src="https://github.com/RomitKatrodiya/video_player/blob/master/images/Screenshot_20220909_100650.png" style=" height:550px; " data-target="animated-image.originalImage">
