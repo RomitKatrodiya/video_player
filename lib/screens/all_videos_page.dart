@@ -38,6 +38,14 @@ class _AllVideosPageState extends State<AllVideosPage> {
             },
           ));
       }
+      for (var e in networkVideos) {
+        controller.add(VideoPlayerController.network(e)
+          ..initialize().then(
+            (_) {
+              setState(() {});
+            },
+          ));
+      }
 
       for (var e in controller) {
         chewieController.add(ChewieController(
@@ -80,6 +88,25 @@ class _AllVideosPageState extends State<AllVideosPage> {
                           controller[assetsVideos.indexOf(e)].value.aspectRatio,
                       child: Chewie(
                         controller: chewieController[assetsVideos.indexOf(e)],
+                      ),
+                    ),
+                  ),
+                )
+                .toList(),
+            ...networkVideos
+                .map(
+                  (e) => Container(
+                    margin: const EdgeInsets.only(top: 15, right: 15, left: 15),
+                    height: 230,
+                    width: double.infinity,
+                    color: Colors.teal.withOpacity(0.3),
+                    child: AspectRatio(
+                      aspectRatio: controller[networkVideos.indexOf(e) + 3]
+                          .value
+                          .aspectRatio,
+                      child: Chewie(
+                        controller:
+                            chewieController[networkVideos.indexOf(e) + 3],
                       ),
                     ),
                   ),
